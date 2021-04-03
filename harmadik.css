@@ -74,19 +74,34 @@ th {
   border-bottom: 3px solid black;
 }
 
+#tores {
+  display: block;
+}
+
 .szamok {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  vertical-align: middle;
-    font-size: 1.7em;
+  display: block;
+  font-size: 1.3em;
     color: black;
     font-family: "Times New Roman", serif;
-  border-spacing: 50px;
+}
+
+.szamok td {
+  border: none;
+  position:relative;
+}
+
+.szamok td:before {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+  display: block;
 }
 
 .szamok video {
-  width: 400px;
+  width: 300px;
   border-left: 5px solid black;
     border-right: 5px solid black;
     border-top: 5px solid black;
@@ -174,25 +189,40 @@ th {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
   }
+
+  #tores {
+    display: block;
+  }
   
   .szamok {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    vertical-align: middle;
-      font-size: 1.7em;
+    display: block;
+    font-size: 1.7em;
       color: black;
       font-family: "Times New Roman", serif;
-    border-spacing: 50px;
+    padding-left: 160px;
   }
-
+  
+  .szamok td {
+    border: none;
+    position:relative;
+  }
+  
+  .szamok td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    display: block;
+  }
+  
   .szamok video {
     width: 500px;
     border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-  }
+      border-right: 5px solid black;
+      border-top: 5px solid black;
+      border-bottom: 5px solid black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -275,16 +305,19 @@ th {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
   }
-  
+
+  #tores {
+    display:inline-block;
+  }
+
   .szamok {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
     vertical-align: middle;
       font-size: 1.7em;
       color: black;
       font-family: "Times New Roman", serif;
     border-spacing: 50px;
+    padding-left: 160px;
   }
 
   .szamok video {

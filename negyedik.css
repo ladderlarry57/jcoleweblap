@@ -36,9 +36,9 @@ div.stars {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 10px 12px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 17px;
   }
   
   .topnav a:hover {
@@ -52,8 +52,8 @@ div.stars {
   }
   
   .topnav img {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
 
   #submit {
@@ -65,13 +65,14 @@ div.stars {
       margin-left: auto;
       margin-right: auto;
       border-collapse: separate;
-  border-spacing: 150px 0;
+      border-spacing: 90px 0;
   }
 
   .kerdoiv td {
       vertical-align: top;
   }
 
+ 
   #grad {
     background-image: linear-gradient(to left, #cdeeff , white);
   }
@@ -88,7 +89,8 @@ div.stars {
   }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
+
   h1 {
     text-align: center;
 }
@@ -127,9 +129,9 @@ div.stars {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 10px;
   }
   
   .topnav a:hover {
@@ -143,12 +145,12 @@ div.stars {
   }
 
   .topnav img {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
   }
 
   .topnav {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 
 
@@ -157,11 +159,15 @@ div.stars {
     margin-right: auto;
   }
 
+  .kerdoiv th, td, tr {
+    display: block;
+  }
+
   .kerdoiv {
       margin-left: auto;
       margin-right: auto;
       border-collapse: separate;
-  border-spacing: 150px 0;
+      border-spacing: 10px;
   }
 
   .kerdoiv td {
