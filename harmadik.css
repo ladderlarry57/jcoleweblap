@@ -7,35 +7,39 @@ h1 {
 }
 
 .topnav {
-  background-color: white;
-  border-bottom: 1px solid black;
-  overflow: hidden;
-}
+    background-color: white;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+  }
 
-.topnav a {
-  float: left;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-  font-size: 10px;
-}
+  .topnav a {
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
-.topnav a.active {
-  background-color: #cdeeff;
-  color: black;
-}
+  .topnav a.active {
+    background-color: #cdeeff;
+    color: black;
+  }
 
-.topnav img {
-  width: 10px;
-  height: 10px;
-}
+  .topnav img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .topnav {
+    font-size: 1.7em;
+  }
 
 #grad {
   background-image: linear-gradient(to left, #cdeeff , white);
@@ -45,7 +49,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-    font-size: 1.7em;
+    font-size: 1.4em;
     color: black;
     font-family: "Times New Roman", serif;
   border-left: 3px solid black;
@@ -74,13 +78,13 @@ th {
   border-bottom: 3px solid black;
 }
 
-#tores {
+.tores {
   display: block;
 }
 
 .szamok {
   display: block;
-  font-size: 1.3em;
+  font-size: 1.2em;
     color: black;
     font-family: "Times New Roman", serif;
 }
@@ -101,230 +105,281 @@ th {
 }
 
 .szamok video {
-  width: 300px;
+  width: 280px;
   border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
+aside {
+  float: right;
+  font-size: 0.8em;
+  display: block;
+  border-left: 1px solid red;
+  padding-left: 10px
+}
+
+
 @media only screen and (min-width: 768px) {
-  h1 {
-    color: black;
-    font-family: "Times New Roman", serif;
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .topnav {
-    background-color: white;
-    border-bottom: 1px solid black;
-    overflow: hidden;
-  }
-  
-  .topnav a {
-    float: left;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #cdeeff;
-    color: black;
-  }
+h1 {
+  color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
 
-  .topnav img {
-    width: 15px;
-    height: 15px;
-  }
+.topnav {
+  background-color: white;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
 
-  .topnav {
-    font-size: 1.7em;
-  }
-  
-  #grad {
-    background-image: linear-gradient(to left, #cdeeff , white);
-  }
-  
-  
-  .albumok {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-      font-size: 1.7em;
-      color: black;
-      font-family: "Times New Roman", serif;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    border-spacing: 0px;
-    width: 1250px;
-  }
-  
-  th {
-    font-weight: bold;
-  }
-  
-  .albumok tr td {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-  }
-  
-  .albumok tr th {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-  }
+.topnav a {
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  #tores {
-    display: block;
-  }
-  
-  .szamok {
-    display: block;
-    font-size: 1.7em;
-      color: black;
-      font-family: "Times New Roman", serif;
-    padding-left: 160px;
-  }
-  
-  .szamok td {
-    border: none;
-    position:relative;
-  }
-  
-  .szamok td:before {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    display: block;
-  }
-  
-  .szamok video {
-    width: 500px;
-    border-left: 5px solid black;
-      border-right: 5px solid black;
-      border-top: 5px solid black;
-      border-bottom: 5px solid black;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cdeeff;
+  color: black;
+}
+
+.topnav img {
+  width: 15px;
+  height: 15px;
+}
+
+.topnav {
+  font-size: 1.7em;
+}
+
+#grad {
+  background-image: linear-gradient(to left, #cdeeff , white);
+}
+
+
+.albumok {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  font-size: 1.7em;
+  color: black;
+  font-family: "Times New Roman", serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-spacing: 0px;
+  width: 1250px;
+}
+
+th {
+  font-weight: bold;
+}
+
+.albumok tr td {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.albumok tr th {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.tores {
+  display: block;
+}
+
+.szamok {
+  display: block;
+  font-size: 1.7em;
+  color: black;
+  font-family: "Times New Roman", serif;
+  padding-left: 160px;
+}
+
+.szamok td {
+  border: none;
+  position:relative;
+}
+
+.szamok td:before {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+  display: block;
+}
+
+.szamok video {
+  width: 500px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+aside {
+  float: right;
+  font-size: 0.8em;
+  display: block;
+  border-left: 1px solid red;
+  padding-left: 10px
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
-  h1 {
-    color: black;
-    font-family: "Times New Roman", serif;
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .topnav {
-    background-color: white;
-    border-bottom: 1px solid black;
-    overflow: hidden;
-  }
-  
-  .topnav a {
-    float: left;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #cdeeff;
-    color: black;
+h1 {
+  color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.topnav {
+  background-color: white;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cdeeff;
+  color: black;
+}
+
+.topnav img {
+  width: 15px;
+  height: 15px;
+}
+
+.topnav {
+  font-size: 1.7em;
+}
+
+#grad {
+  background-image: linear-gradient(to left, #cdeeff , white);
+}
+
+.albumok {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  font-size: 1.7em;
+  color: black;
+  font-family: "Times New Roman", serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-spacing: 0px;
+  width: 1250px;
+}
+
+th {
+  font-weight: bold;
+}
+
+.albumok tr td {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.albumok tr th {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.tores {
+  display:inline-block;
+}
+
+.szamok {
+  margin-left: 250px;
+  margin-top: 50px;
+  vertical-align: middle;
+  font-size: 1.7em;
+  color: black;
+  font-family: "Times New Roman", serif;
+  border-spacing: 50px;
+  padding-left: 160px;
+}
+
+.szamok video {
+  width: 600px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+aside {
+  float: right;
+  font-size: 0.8em;
+  display: block;
+  border-left: 1px solid red;
+  padding-left: 10px
+}
+
+}
+
+@media print {
+
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
   }
 
-  .topnav img {
-    width: 15px;
-    height: 15px;
+  .topnav {
+    display: none;
   }
 
-  .topnav {
-    font-size: 1.7em;
+  video {
+    display: none;
   }
-  
-  #grad {
-    background-image: linear-gradient(to left, #cdeeff , white);
-  }
-  
+
   .albumok {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-      font-size: 1.7em;
-      color: black;
-      font-family: "Times New Roman", serif;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    border-spacing: 0px;
-    width: 1250px;
-  }
-  
-  th {
-    font-weight: bold;
-  }
-  
-  .albumok tr td {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-  }
-  
-  .albumok tr th {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-  }
+    width: 700px;
 
-  #tores {
-    display:inline-block;
-  }
-
-  .szamok {
-    margin-top: 50px;
-    vertical-align: middle;
-      font-size: 1.7em;
-      color: black;
-      font-family: "Times New Roman", serif;
-    border-spacing: 50px;
-    padding-left: 160px;
-  }
-
-  .szamok video {
-    width: 600px;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
   }
 }
